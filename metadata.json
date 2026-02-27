@@ -1,0 +1,5 @@
+{
+  "name": "React Basic App",
+  "description": "A basic React application with Shadcn UI, Tailwind CSS, and Axios.",
+  "requestFramePermissions": []
+}
