@@ -6,18 +6,17 @@
     "moduleResolution": "bundler",
     "strict": true,
     "jsx": "preserve",
+    "sourceMap": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "skipLibCheck": true,
-    "allowJs": true,
-    "noEmit": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client"],
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
-    },
-    "types": ["vite/client"]
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
+

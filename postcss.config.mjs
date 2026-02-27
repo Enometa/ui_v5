@@ -1,3 +1,10 @@
+export default {
+  plugins: {
+    "@tailwindcss/postcss": {},
+    "tw-animate-css": {},
+  },
+};
+
 /** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
